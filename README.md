@@ -1,4 +1,4 @@
-# helium-drm-patch
+# helium-drm-patch-linux
 
 A lightweight, zero-dependency Python CLI to enable **Widevine CDM (DRM)** playback in [Helium Browser](https://helium.computer/) on Linux—without needing Google Chrome installed, without `bun`, and without `sudo`.
 
@@ -17,8 +17,8 @@ Helium is an ungoogled-Chromium-based browser and does not ship with Google's pr
 ## Quick Start
 
 ```bash
-git clone https://github.com/m00t13/helium-drm-patch.git
-cd helium-drm-patch
+git clone https://github.com/m00t13/helium-drm-patch-linux.git
+cd helium-drm-patch-linux
 chmod +x helium-drm-patch
 ./helium-drm-patch --verify
 ```
